@@ -1,0 +1,45 @@
+body {
+	margin:0;
+	min-width: 300px;
+}
+
+.the-header {
+	background-color: #578;
+	padding: 5px 10px;
+	color: white;
+	text-align: center;
+}
+.the-header:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+p {
+	padding: 0px 10px;
+	float: left;
+	font-size: 30px;
+	color: red;
+	font-style: bold;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+table {
+	padding: 5px 10px;
+	float: left;
+
+}
+
+.reglas {
+	width: 80%;
+	padding: 0px 10px;
+	font-style: italic;
+	font-size: 10px;
+	white-space: pre-line;
+
+  }
+
+
